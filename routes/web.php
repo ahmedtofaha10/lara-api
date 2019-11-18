@@ -15,3 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
+
+// for spa
+//Route::get('/{any}', 'ArticaleController@index')->where('any', '.*');
